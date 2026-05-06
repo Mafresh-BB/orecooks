@@ -19,6 +19,7 @@ const About = () => {
                 src="/tray.png"
                 alt="Orecooks Catering"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
             <div className="absolute -bottom-8 -right-8 bg-primary text-white p-8 rounded-3xl shadow-xl hidden lg:block">

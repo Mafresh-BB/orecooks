@@ -23,6 +23,7 @@ const CulinarySchool = () => {
               src="/culinary.png"
               alt="Orecooks Culinary Academy"
               className="w-full h-full object-cover opacity-90"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-transparent to-transparent hidden lg:block" />
           </div>

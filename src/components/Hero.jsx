@@ -4,22 +4,24 @@ import { ChevronRight, Utensils } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src="/hero.png"
           alt="Premium Nigerian Food"
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchpriority="high"
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>
 
       <div className="relative z-10 text-center px-4 max-w-4xl">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
         >
           <span className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-md text-pink-200 px-4 py-1.5 rounded-full text-sm font-medium border border-white/20 mb-6">
             <Utensils size={14} />

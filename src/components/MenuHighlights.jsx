@@ -46,6 +46,7 @@ const MenuHighlights = () => {
                   src={dish.image}
                   alt={dish.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  loading="lazy"
                 />
               </div>
               <div className="p-8">

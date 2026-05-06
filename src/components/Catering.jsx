@@ -60,12 +60,12 @@ const Catering = () => {
           <div className="lg:w-1/2 relative">
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4 pt-12">
-                <img src="/tray.png" alt="Catering 1" className="rounded-3xl shadow-lg w-full h-64 object-cover" />
-                <img src="/hero.png" alt="Catering 2" className="rounded-3xl shadow-lg w-full h-48 object-cover" />
+                <img src="/tray.png" alt="Catering 1" className="rounded-3xl shadow-lg w-full h-64 object-cover" loading="lazy" />
+                <img src="/hero.png" alt="Catering 2" className="rounded-3xl shadow-lg w-full h-48 object-cover" loading="lazy" />
               </div>
               <div className="space-y-4">
-                <img src="/egusi.png" alt="Catering 3" className="rounded-3xl shadow-lg w-full h-48 object-cover" />
-                <img src="/tray.png" alt="Catering 4" className="rounded-3xl shadow-lg w-full h-64 object-cover" />
+                <img src="/egusi.png" alt="Catering 3" className="rounded-3xl shadow-lg w-full h-48 object-cover" loading="lazy" />
+                <img src="/tray.png" alt="Catering 4" className="rounded-3xl shadow-lg w-full h-64 object-cover" loading="lazy" />
               </div>
             </div>
             {/* Background decoration */}
